@@ -1,8 +1,8 @@
 # Create your costume_stores migration here
 
-class CostumeStore < ActiveRecord::Migration[4.2]
+class CreateCostumeStore < ActiveRecord::Migration[4.2]
   def change 
-    create_table :Costume do |t|
+    create_table :costume_stores do |t|
   t.string :name
   t.float :price
   t.string :size
