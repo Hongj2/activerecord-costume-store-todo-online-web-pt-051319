@@ -15,6 +15,8 @@ class CostumeStore < ActiveRecord::Migration[4.2]
   t.float :price
   t.string :size
   t.string :image_url 
-  end
   
+  t.timestamp null:false
+    end
+  end
 end
